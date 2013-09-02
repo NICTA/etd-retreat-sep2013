@@ -312,4 +312,4 @@ Example:
 
 ### Credits
 
-Some of the exercises are inspired by (Project Euler)[http://projecteuler.net/].
+Some of the exercises are inspired by [Project Euler](http://projecteuler.net/).
