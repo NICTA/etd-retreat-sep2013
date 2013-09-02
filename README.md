@@ -236,6 +236,31 @@ eleven cents". Pluralisation should be grammatically correct. For example,
 Invalid characters should be ignored, meaning that every input string has an 
 output string. The empty string produces "zero dollars and zero cents".
 
+The names of large numbers are given:
+    [
+      "thousand"
+    , "million"
+    , "billion"
+    , "trillion"
+    , "quadrillion"
+    , "quintillion"
+    , "sextillion"
+    , "septillion"
+    , "octillion"
+    , "nonillion"
+    , "decillion"
+    , "undecillion"
+    , "duodecillion"
+    , "tredecillion"
+    , "quattuordecillion"
+    , "quindecillion"
+    , "sexdecillion"
+    , "septendecillion"
+    , "octodecillion"
+    , "novemdecillion"
+    , "vigintillion"
+    ]
+
 Example:
 
     > exercise9 0
