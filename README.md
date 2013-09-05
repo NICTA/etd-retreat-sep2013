@@ -30,7 +30,7 @@ Example:
     hello Fred
 
     > exercise0 Mary
-    hello Fred
+    hello Mary
 
 ### Exercise 1 - Product results in largest palindrome
 
