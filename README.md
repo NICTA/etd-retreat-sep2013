@@ -30,7 +30,7 @@ Example:
     hello Fred
 
     > exercise0 Mary
-    hello Fred
+    hello Mary
 
 ### Exercise 1 - Product results in largest palindrome
 
@@ -223,6 +223,12 @@ Example (M=100):
 
     > exercise8 100 40 100 35 50 18 45 4 20 10 10 2 5
     55
+
+    > exercise8 100 50 92 93 79 89 38 39 5 84 95 52 49 41 94 51 19 65 99 88 6 88 73 89 63 3 50 92 93 79 89 38 39 5 84 95 52 49 41 94 51
+    310
+
+    > exercise8 100 50 92 93 79 89 38 39 5 84 95 52 49 41 94 51 19 65 99 88 6 88 73 89 63 3 50 92 93 79 89 38 39 5 84 95 52 49 41
+    273
 
 ### Exercise 9 - Write a Cheque
 
