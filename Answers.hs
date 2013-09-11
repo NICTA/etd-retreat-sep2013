@@ -1,15 +1,22 @@
 module Answers where
 
-import Data.Array
-import Data.Char
-import Data.Function
-import Data.List
-import Data.Maybe
-import Data.MemoCombinators
-import Control.Applicative
-import Control.Monad
-import Control.Monad.Instances
-import Numeric
+import Data.Char(intToDigit, toLower)
+import Data.Function(on)
+import Data.List(foldl', find, isPrefixOf)
+import Data.Maybe(maybe, fromMaybe, mapMaybe)
+import Data.MemoCombinators(memo2, integral)
+import Control.Applicative((<*>), liftA2)
+import Control.Monad(join)
+import Numeric(showIntAtBase)
+
+-- | A palindromic number reads the same both ways. The largest palindrome made from 
+-- the product of two 2-digit numbers is 9009 = 91 × 99.
+--
+-- Print the largest palindrome made from the product of two 4-digit numbers.
+exercise1 =
+  let four = [9999, 9998..1000]
+      isPalindrome = ((==) =<< reverse) . show
+  in maybe "lol" show . find isPalindrome $ liftA2 (*) four four
 
 -- | 2520 is the smallest number that can be divided by each of the numbers from
 -- 1 to 10 without any remainder.
@@ -488,7 +495,7 @@ exercise9 x =
            , "septendecillion"
            , "octodecillion"
            , "novemdecillion"
-           ] ++ liftM2 ((++) =<<) preillion postillion
+           ] ++ liftA2 ((++) =<<) preillion postillion
 
       illionate =
         let space "" =
