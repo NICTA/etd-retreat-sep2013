@@ -177,7 +177,7 @@ Example:
 
 The decimal number, 585 = 1001001001₂ (binary), is palindromic in both bases.
 
-Given an integer between 5000 and 5000000 as input (n), print the sum of all 
+Given an integer between 50 and 5000000 as input (n), print the sum of all 
 positive numbers, less than n, which are palindromic in base 10 and base 2.
 
 Note that the palindromic number, in either base, may not include leading zeros.
